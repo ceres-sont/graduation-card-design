@@ -78,7 +78,11 @@ export default function GraduationCard() {
 
                 <div className="text-center space-y-2">
                   <h2 className="text-3xl font-serif text-primary italic">Thư mời Tốt nghiệp</h2>
-                  <p className="text-muted-foreground font-sans tracking-widest uppercase text-xs">Chạm để mở thiệp</p>
+                  <div className="border rounded bg-secondary/10 py-2">
+                    <h3 className="text-2xl font-serif text-secondary">Trịnh Vũ Xuân Sơn</h3>
+                  </div>
+                  
+                  <p className="text-muted-foreground font-sans tracking-widest uppercase text-xs mt-3">Chạm để mở thiệp</p>
                 </div>
 
                 <div className="absolute bottom-4 right-4 opacity-20 group-hover:opacity-100 transition-opacity">
@@ -124,7 +128,7 @@ export default function GraduationCard() {
                       </span>
                       <h1 className="text-4xl font-serif text-primary leading-tight">
                         Lễ Tốt Nghiệp <br />
-                        <span className="text-secondary">Của Tôi</span>
+                        <span className="text-secondary">Của Sơn</span>
                       </h1>
                     </motion.div>
 
