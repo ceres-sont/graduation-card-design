@@ -130,6 +130,7 @@ export default function GraduationCard() {
                         Lễ Tốt Nghiệp <br />
                         <span className="text-secondary">Của Sơn</span>
                       </h1>
+                      <p className="text-muted-foreground font-serif tracking-widest text-xs mt-3">0961323076 - Liên hệ Sơn nếu cần giúp đỡ</p>
                     </motion.div>
 
                     <motion.div
