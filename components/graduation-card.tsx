@@ -140,7 +140,7 @@ export default function GraduationCard() {
                       transition={{ delay: 0.5 }}
                     >
                       <p>
-                        Chào mọi người, sau hành trình nỗ lực không ngừng, tôi rất vinh dự được chia sẻ khoảnh khắc
+                        Chào mọi người, sau hành trình nỗ lực không ngừng, Sơn rất vinh dự được chia sẻ khoảnh khắc
                         trọng đại này cùng gia đình và bạn bè.
                       </p>
 
