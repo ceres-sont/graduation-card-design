@@ -43,7 +43,7 @@ export default function GraduationCard() {
   if (!isMounted) return null
 
   const eventDetails = {
-    time: "09:00 AM",
+    time: "10:30 AM",
     date: "09/01/2026",
     address: "Khu Công nghệ cao XLHN, Hiệp Phú, Thủ Đức, Thành phố Hồ Chí Minh, Vietnam",
     mapUrl: "https://www.google.com/maps/place/HUTECH+University+-+Thu+Duc+Campus/@10.855048,106.7827981,17z/data=!4m14!1m7!3m6!1s0x317527c3debb5aad:0x5fb58956eb4194d0!2zxJDhuqFpIEjhu41jIEh1dGVjaCBLaHUgRQ!8m2!3d10.8550427!4d106.785373!16s%2Fg%2F11h2qmtmp7!3m5!1s0x3175276e7ea103df:0xb6cf10bb7d719327!8m2!3d10.8557382!4d106.7856068!16s%2Fg%2F11c6tvvgch?entry=ttu&g_ep=EgoyMDI1MTIwOS4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D",
@@ -130,7 +130,13 @@ export default function GraduationCard() {
                         Lễ Tốt Nghiệp <br />
                         <span className="text-secondary">Của Sơn</span>
                       </h1>
-                      <p className="text-muted-foreground font-serif tracking-widest text-xs mt-3">0961323076 - Liên hệ Sơn nếu cần giúp đỡ</p>
+                      <div className="flex items-center gap-2 mt-3">
+                        <div>
+                          <p className="text-muted-foreground font-serif tracking-widest text-xs">0961323076</p>
+                          <p className="text-muted-foreground font-serif tracking-widest text-xs mt-1">0768742241</p>
+                        </div>
+                        <p className="text-muted-foreground font-serif tracking-widest"> - Liên hệ Sơn nếu cần giúp đỡ</p>
+                      </div>
                     </motion.div>
 
                     <motion.div
@@ -140,7 +146,7 @@ export default function GraduationCard() {
                       transition={{ delay: 0.5 }}
                     >
                       <p>
-                        Chào mọi người, sau hành trình nỗ lực không ngừng, tôi rất vinh dự được chia sẻ khoảnh khắc
+                        Chào mọi người, sau hành trình nỗ lực không ngừng, Sơn rất vinh dự được chia sẻ khoảnh khắc
                         trọng đại này cùng gia đình và bạn bè.
                       </p>
 
